@@ -5,7 +5,7 @@ namespace CSharpDiscovery.Quest01
         public static bool IsOdd(int a)
         {
             bool resultat = true;
-            if (a%2==0 && a!=0) {
+            if (a%2==0) {
                 return resultat = false;
             }else{
                 return resultat;
