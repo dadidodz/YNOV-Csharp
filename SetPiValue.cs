@@ -4,7 +4,7 @@ namespace CSharpDiscovery.Quest01
     {
         public static float SetPiValue(float pi)
         {
-            return pi;
+            return pi = 3.14159f;
         }
     }
 }
