@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\doria\\OneDrive\\Bureau\\YNOV\\B2_Info\\ProjetCSharp\\c6\\CSharpDiscovery.csproj": {}
+    "c:\\Users\\doria\\OneDrive\\Bureau\\YNOV\\B2_Info\\ProjetCSharp\\c6\\CSharpDiscovery.csproj": {}
   },
   "projects": {
-    "C:\\Users\\doria\\OneDrive\\Bureau\\YNOV\\B2_Info\\ProjetCSharp\\c6\\CSharpDiscovery.csproj": {
+    "c:\\Users\\doria\\OneDrive\\Bureau\\YNOV\\B2_Info\\ProjetCSharp\\c6\\CSharpDiscovery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\doria\\OneDrive\\Bureau\\YNOV\\B2_Info\\ProjetCSharp\\c6\\CSharpDiscovery.csproj",
+        "projectUniqueName": "c:\\Users\\doria\\OneDrive\\Bureau\\YNOV\\B2_Info\\ProjetCSharp\\c6\\CSharpDiscovery.csproj",
         "projectName": "CSharpDiscovery",
-        "projectPath": "C:\\Users\\doria\\OneDrive\\Bureau\\YNOV\\B2_Info\\ProjetCSharp\\c6\\CSharpDiscovery.csproj",
+        "projectPath": "c:\\Users\\doria\\OneDrive\\Bureau\\YNOV\\B2_Info\\ProjetCSharp\\c6\\CSharpDiscovery.csproj",
         "packagesPath": "C:\\Users\\doria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\doria\\OneDrive\\Bureau\\YNOV\\B2_Info\\ProjetCSharp\\c6\\obj\\",
+        "outputPath": "c:\\Users\\doria\\OneDrive\\Bureau\\YNOV\\B2_Info\\ProjetCSharp\\c6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\doria\\AppData\\Roaming\\NuGet\\NuGet.Config"
