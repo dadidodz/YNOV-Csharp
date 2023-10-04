@@ -4,7 +4,11 @@ namespace CSharpDiscovery.Quest01
     {
         public static string ConcatEverything(params string[] str)
         {
-           // Your code
+            string resultat = "";
+            for (int i=0; i<str.Length;i++){
+                resultat+=str[i];
+           }
+           return resultat;
         }
     }
 }
