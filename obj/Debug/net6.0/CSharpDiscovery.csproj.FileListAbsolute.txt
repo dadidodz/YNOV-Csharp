@@ -1,0 +1,14 @@
+C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetCSharp\c6\bin\Debug\net6.0\CSharpDiscovery.exe
+C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetCSharp\c6\bin\Debug\net6.0\CSharpDiscovery.deps.json
+C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetCSharp\c6\bin\Debug\net6.0\CSharpDiscovery.runtimeconfig.json
+C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetCSharp\c6\bin\Debug\net6.0\CSharpDiscovery.dll
+C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetCSharp\c6\bin\Debug\net6.0\CSharpDiscovery.pdb
+C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetCSharp\c6\obj\Debug\net6.0\CSharpDiscovery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetCSharp\c6\obj\Debug\net6.0\CSharpDiscovery.AssemblyInfoInputs.cache
+C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetCSharp\c6\obj\Debug\net6.0\CSharpDiscovery.AssemblyInfo.cs
+C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetCSharp\c6\obj\Debug\net6.0\CSharpDiscovery.csproj.CoreCompileInputs.cache
+C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetCSharp\c6\obj\Debug\net6.0\CSharpDiscovery.dll
+C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetCSharp\c6\obj\Debug\net6.0\refint\CSharpDiscovery.dll
+C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetCSharp\c6\obj\Debug\net6.0\CSharpDiscovery.pdb
+C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetCSharp\c6\obj\Debug\net6.0\CSharpDiscovery.genruntimeconfig.cache
+C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetCSharp\c6\obj\Debug\net6.0\ref\CSharpDiscovery.dll
