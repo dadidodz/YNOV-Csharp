@@ -7,7 +7,7 @@ namespace TestCSharp
     {
         static void Main(string[] str)
         {
-            Console.WriteLine(GetStringSize_Exercice.GetStringSize(""));
+            Console.WriteLine(Capitalize_Exercice.Capitalize("helloworld"));
         }
     }
 }
