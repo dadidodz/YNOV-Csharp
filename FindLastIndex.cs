@@ -5,14 +5,15 @@ namespace CSharpDiscovery.Quest02
         public static int? FindLastIndex(int[] tab, int a)
         {
             if (tab==null){
-                throw new ArgumentNullException ("Empty array.");
+                throw new System.ArgumentNullException(nameof(tab));
             }
-            
+
             if (Array.LastIndexOf(tab, a)<0){
                 return null;
-            }else {
-                return Array.LastIndexOf(tab, a);
             }
+            else {
+                return Array.LastIndexOf(tab, a);
+            }            
         }
     }
 }
