@@ -4,7 +4,7 @@ namespace CSharpDiscovery.Quest02
     {
         public static int? FindLastIndex(int[] tab, int a)
         {
-            if (Array.LastIndexOf(tab, a)<0){
+            if (Array.LastIndexOf(tab, a)<0 || tab==null){
                 return null;
             } else {
                 return Array.LastIndexOf(tab, a);
