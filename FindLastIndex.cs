@@ -4,16 +4,19 @@ namespace CSharpDiscovery.Quest02
     {
         public static int? FindLastIndex(int[] tab, int a)
         {
-            if (tab==null){
-                throw new System.ArgumentNullException(nameof(tab));
-            }
-
-            if (Array.LastIndexOf(tab, a)<0){
+            if (tab == null || tab.Length == 0  ){
+                throw new System.ArgumentNullException(nameof(tab), "is null");
+            } else  if (Array.LastIndexOf(tab, a)<0){
                 return null;
             }
-            else {
+            else
+            {
                 return Array.LastIndexOf(tab, a);
-            }            
+            } 
+
+           
+    
+                    
         }
     }
 }
