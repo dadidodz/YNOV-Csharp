@@ -19,5 +19,9 @@ namespace CSharpDiscovery.Quest03;
             set { name = "f "; }
         }
 
-        public static string GoogleMapsUrlTemplate = "https://www.google.com/maps/place/{0}/@{1},{2},15z/";
+        private static string googleMapsUrlTemplate = "https://www.google.com/maps/place/{0}/@{1},{2},15z/";
+        public static string GoogleMapsUrlTemplate{
+            get { return googleMapsUrlTemplate; }
+        }
+        
     }
