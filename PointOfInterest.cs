@@ -40,5 +40,11 @@ namespace CSharpDiscovery.Quest03;
             latitude = latitudeParam;
             longitude = longitudeParam;
         }
+
+        public string GetGoogleMapsUrl() {
+            string a = googleMapsUrlTemplate;
+            string.Format(a, name, latitude, longitude);
+            return a;
+        }
         
     }
