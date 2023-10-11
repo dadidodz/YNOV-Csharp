@@ -4,25 +4,9 @@ using System.Reflection.Metadata.Ecma335;
 namespace CSharpDiscovery.Quest03;
 
     public class PointOfInterest{
-
-        private string name;
-        public string Name   // property
-        {
-            get { return name; }
-            set { name = "f "; }
-        }
-
-        private double latitude;
-        public double Latitude{
-            get { return latitude; }
-            set { latitude = 0.0d; }
-        }
-
-        private double longitude;
-        public double Longitude{
-            get { return longitude; }
-            set { longitude = 0.0d; }
-        }
+        public string Name {get; set;} 
+        public double Latitude{get; set;}
+        public double Longitude{get; set;}
         
         private static string googleMapsUrlTemplate = "https://www.google.com/maps/place/{0}/@{1},{2},15z/";
         public static string GoogleMapsUrlTemplate{
@@ -30,21 +14,19 @@ namespace CSharpDiscovery.Quest03;
         }
 
         public PointOfInterest(){
-            name = "Bordeaux Ynov Campus";
-            latitude = 44.854186;
-            longitude = -0.5663056;
+            Name = "Bordeaux Ynov Campus";
+            Latitude = 44.854186;
+            Longitude = -0.5663056;
         }
 
         public PointOfInterest(string nameParam, double latitudeParam, double longitudeParam){
-            name = nameParam;
-            latitude = latitudeParam;
-            longitude = longitudeParam;
+            Name = nameParam;
+            Latitude = latitudeParam;
+            Longitude = longitudeParam;
         }
 
         public string GetGoogleMapsUrl() {
-            string a = googleMapsUrlTemplate;
-            string.Format(a, name, latitude, longitude);
-            return a;
+            return string.Format(googleMapsUrlTemplate, Name, Latitude, Longitude);
         }
         
     }
