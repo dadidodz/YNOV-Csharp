@@ -1,4 +1,5 @@
 using System.Drawing;
+using System.Net;
 using System.Reflection.Metadata.Ecma335;
 
 namespace CSharpDiscovery.Quest03;
@@ -26,7 +27,8 @@ namespace CSharpDiscovery.Quest03;
         }
 
         public string GetGoogleMapsUrl() {
-            return string.Format(googleMapsUrlTemplate, Name, Latitude, Longitude);
+            string encodedName = WebUtility.UrlEncode(Name);
+            return string.Format(googleMapsUrlTemplate, encodedName, Latitude, Longitude);
         }
         
     }
