@@ -9,10 +9,7 @@ namespace CSharpDiscovery.Quest03;
         public double Latitude{get; set;}
         public double Longitude{get; set;}
         
-        private static string googleMapsUrlTemplate = "https://www.google.com/maps/place/{0}/@{1},{2},15z/";
-        public static string GoogleMapsUrlTemplate{
-            get { return googleMapsUrlTemplate; }
-        }
+        public static string GoogleMapsUrlTemplate { get; } = "https://www.google.com/maps/place/{0}/@{1},{2},15z/";
 
         public PointOfInterest(){
             Name = "Bordeaux Ynov Campus";
@@ -28,7 +25,11 @@ namespace CSharpDiscovery.Quest03;
 
         public string GetGoogleMapsUrl() {
             string encodedName = WebUtility.UrlEncode(Name);
-            return string.Format(googleMapsUrlTemplate, encodedName, Latitude, Longitude);
+            return string.Format(GoogleMapsUrlTemplate, encodedName, Latitude, Longitude);
         }
-        
-    }
+
+        public override string ToString() {
+            return $"{Name} (Lat={Latitude}, Long={Longitude})";
+        }
+
+}
