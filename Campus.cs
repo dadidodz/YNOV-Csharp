@@ -1,7 +1,7 @@
 namespace CSharpDiscovery.Quest03;
 
 public class Campus : PointOfInterest {
-    public int Capacity = 3000;
+    public int Capacity {get; set;}
 
     public override string ToString()
     {
