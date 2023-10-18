@@ -6,9 +6,23 @@ namespace TestCSharp
     {
         static void Main(string[] str)
         {
-            var RandomCar = new Car();
-            var Megane = new Car("Mégane", "Renault", "Yellow", 50);
-            Vehicule.WhoIsHere();
+            var Megane = new Car("Mégane", "Renault", "Yellow", 100);
+
+            Megane.Accelerate(50);
+
+            Console.WriteLine(Megane.CurrentSpeed);
+
+            Megane.Accelerate(50);
+
+            Console.WriteLine(Megane.CurrentSpeed);
+
+            Megane.Brake(160);
+
+            Console.WriteLine(Megane.CurrentSpeed);
+
+            Megane.Brake(40);
+
+            Console.WriteLine(Megane.CurrentSpeed);
         }
     }
 }
