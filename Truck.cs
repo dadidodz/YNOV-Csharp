@@ -1,27 +1,27 @@
 namespace CSharpDiscovery.Quest04;
 
-public class Car : Vehicule{
+public class Truck : Vehicule{
 
-    public string Model {get; set;}
+    public int Tonnage {get; set;}
 
-    public Car(){
-        Model = "Unknown";
+    public Truck(){
+        Tonnage = 0;
     }
 
-    public Car(string model, string brand, string color, int currentSpeed) :base(brand, color, currentSpeed){
-        Model = model;
+    public Truck(int tonnage, string brand, string color, int currentSpeed) :base(brand, color, currentSpeed){
+        Tonnage = tonnage;
     }
 
     public override string ToString()
     {
-        return $"{Color} {Brand} {Model}";
+        return $"{Color} {Brand} {Tonnage}T Truck";
     }
 
     public override void Accelerate(int Speed)
     {
         CurrentSpeed += Speed;
-        if (CurrentSpeed>180) {
-            CurrentSpeed = 180;
+        if (CurrentSpeed>100) {
+            CurrentSpeed = 100;
         }
     }
 
@@ -31,6 +31,7 @@ public class Car : Vehicule{
         if (CurrentSpeed<0) {
             CurrentSpeed = 0;
         }
+
     }
 
 
