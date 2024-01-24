@@ -6,7 +6,7 @@ namespace CSharpDiscovery.Quest01
         {
             bool resultat = true;
             if (a%2==0) {
-                return resultat = false;
+                return false;
             }else{
                 return resultat;
             }
